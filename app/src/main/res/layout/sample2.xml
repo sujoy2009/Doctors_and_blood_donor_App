@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nmid"
+        android:text="name:sujoy"
+        android:textStyle="italic"
+        android:layout_marginBottom="30sp"
+        android:textSize="20sp"
+        android:textColor="#2C2727"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctid"
+        android:textStyle="italic"
+        android:text="catagory:medicine"
+        android:layout_marginBottom="30sp"
+        android:textSize="20sp"
+        android:textColor="#2C2727"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cnid"
+        android:textStyle="italic"
+        android:text="num:01711308827"
+        android:layout_marginBottom="30sp"
+        android:textSize="20sp"
+        android:textColor="#2C2727"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lcid"
+        android:text="khulnaa"
+        android:textStyle="italic"
+        android:layout_marginBottom="30sp"
+        android:textSize="20sp"
+        android:textColor="#2C2727"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/hnid"
+        android:text="Last blood donated:city_medical"
+        android:layout_marginBottom="30sp"
+        android:textSize="20sp"
+        android:textColor="#2C2727"
+
+        />
+
+
+</LinearLayout>

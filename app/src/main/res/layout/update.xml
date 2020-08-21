@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/upaboutid"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_background"
+
+
+
+        android:hint="  Enter your degrees"
+        android:inputType="textPersonName"
+
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+
+    <EditText
+        android:id="@+id/uphospitalid"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:ems="10"
+        android:paddingLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_background"
+
+
+        android:hint="  Chembers and consulting time and fees"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="128dp" />
+    <EditText
+        android:id="@+id/upcontactid"
+        android:layout_width="match_parent"
+        android:paddingLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="60dp"
+
+        android:ems="10"
+        android:background="@drawable/edit_background"
+
+
+        android:hint="  Enter contact number"
+        android:inputType="number"
+
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="128dp" />
+    <EditText
+        android:id="@+id/uppinid"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:ems="10"
+        android:background="@drawable/edit_background"
+        android:paddingLeft="4dp"
+        android:layout_marginTop="5dp"
+
+
+        android:hint="  ENTER YOUR PIN"
+        android:inputType="number"
+
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="128dp" />
+    <EditText
+        android:id="@+id/upbmdcid"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:ems="10"
+        android:background="@drawable/edit_background"
+        android:paddingLeft="4dp"
+        android:layout_marginTop="5dp"
+
+
+        android:hint="  Enter BMDC number"
+        android:inputType="number"
+
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+
+
+
+    <Spinner
+        android:id="@+id/uplocationid"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:spinnerMode="dropdown"
+        android:paddingLeft="4dp"
+        android:layout_marginTop="5dp"
+
+        android:entries="@array/loc"
+
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Spinner
+        android:id="@+id/upcatagoryid"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:spinnerMode="dialog"
+        android:paddingLeft="4dp"
+
+        android:entries="@array/catagory"
+
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/back2"
+        android:textStyle="bold|italic"
+        android:text="Update"
+        android:id="@+id/updateitid"
+        />
+
+
+</LinearLayout>

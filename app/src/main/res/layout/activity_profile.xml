@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+
+    tools:context=".profile"
+    android:background="@drawable/medj"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+
+
+        android:text="Welcome!!!"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#E403F4"/>
+
+    <Button
+        android:id="@+id/savedatabid"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:textSize="15dp"
+
+        android:textStyle="bold|italic"
+
+
+
+        android:background="@drawable/button_back"
+
+        android:text="Register as doctor" />
+
+    <Button
+        android:id="@+id/showdatabid"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:textStyle="italic|bold"
+        android:background="@drawable/back3"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+
+
+
+        android:text="Doctors detail" />
+    <Button
+        android:id="@+id/findid"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:background="@drawable/back2"
+
+
+
+        android:text="Find and Update your profile" />
+    <Button
+        android:id="@+id/bloodregid"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+
+        android:textStyle="italic|bold"
+        android:background="@drawable/back_raj"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"
+
+
+
+        android:text="Register as blood dooner" />
+    <Button
+        android:id="@+id/findbloodid"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:textStyle="italic|bold"
+        android:background="@drawable/back_raj"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+
+
+
+        android:text="Show  blood dooners" />
+    <Button
+        android:id="@+id/upbloodid"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:textStyle="italic|bold"
+        android:background="@drawable/back_raj"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+
+
+
+        android:text="Update your doonation info" />
+</LinearLayout>

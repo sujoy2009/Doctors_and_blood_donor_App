@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".notify">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textSize="30dp"
+        android:paddingLeft="6dp"
+
+        android:textStyle="italic|bold"
+        android:background="@drawable/med1"
+        android:text="Your information is added temporarily.Our team will check your information according to BMDC number.If we think something is false then we will delete your data"
+        android:id="@+id/noteid"
+
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkid"
+        android:layout_gravity="center"
+        android:text="Check your profile"
+        android:background="@drawable/back2"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/backid"
+        android:layout_gravity="center"
+        android:text="Go to homepage"
+        android:background="@drawable/back2"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pid"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/medj"/>
+
+</LinearLayout>

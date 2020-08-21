@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/medical"
+    tools:context=".division_list">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dhid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:background="@drawable/dhaka_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="DHAKA" />
+        <Button
+            android:id="@+id/faridpurid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dhaka_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="italic"
+            android:text="FARIDPUR" />
+
+
+
+
+        <Button
+            android:id="@+id/gopalgonjid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:background="@drawable/dhaka_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="GOPALGONJ" />
+
+        <Button
+            android:id="@+id/tangailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:background="@drawable/dhaka_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="TANGAIL" />
+
+
+
+        <Button
+            android:id="@+id/narsingdiid"
+            android:layout_width="match_parent"
+            android:background="@drawable/dhaka_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="NARSINGDI" />
+
+        <Button
+            android:id="@+id/shariatpurid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:background="@drawable/dhaka_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="SHARIATPUR" />
+        <Button
+            android:id="@+id/narayanganjid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dhaka_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="NARAYANGANJ" />
+
+        <Button
+            android:id="@+id/madaripurid"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:background="@drawable/dhaka_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:text="MADARIPUR" />
+        />
+        <Button
+            android:id="@+id/gazipurid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dhaka_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="GAZIPUR" />
+        <Button
+            android:id="@+id/kishoreganjid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dhaka_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="10dp"
+            android:text="KISHOREGANJ" />
+        <Button
+            android:id="@+id/khid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="KHULNA" />
+
+        <Button
+            android:id="@+id/kustiaid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="KUSTIA" />
+
+
+
+        <Button
+            android:id="@+id/satkhiraid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+
+            android:layout_marginBottom="5dp"
+            android:text="SATKHIRA" />
+        <Button
+            android:id="@+id/jessoreid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="JESSORE" />
+        <Button
+            android:id="@+id/jhenaidahid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="10dp"
+            android:text="JHENAIDAH" />
+        <Button
+            android:id="@+id/rajid"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_raj"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="RAJSHAHI" />
+        <Button
+            android:id="@+id/boguraid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_raj"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="BOGURA" />
+        <Button
+            android:id="@+id/natoreid"
+
+            android:layout_width="match_parent"
+            android:background="@drawable/back_raj"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:text="NATORE" />
+
+        <Button
+            android:id="@+id/pabnaid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_raj"
+            android:textSize="23dp"
+            android:layout_marginBottom="10dp"
+            android:text="PABNA" />
+        <Button
+            android:id="@+id/chitid"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="CHATTOGRAM" />
+        <Button
+            android:id="@+id/noakhaliid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="NOAKHALI" />
+
+
+
+        <Button
+            android:id="@+id/bandorbonid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="BANDORBON" />
+        <Button
+            android:id="@+id/rangamatiid"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="RANGAMATI" />
+        <Button
+            android:id="@+id/coxid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="COX.s BAZAR" />
+        <Button
+            android:id="@+id/rangpurid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="RANGPUR" />
+        <Button
+            android:id="@+id/sylhetid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="SYLHET" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

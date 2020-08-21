@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/myappicon"
+        android:label="Doctors and Blood"
+        android:roundIcon="@drawable/myappicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".helper"></activity>
+        <activity android:name=".dateupdate" />
+        <activity android:name=".dooner" />
+        <activity android:name=".selection" />
+        <activity android:name=".datasave2" />
+        <activity android:name=".notify" />
+        <activity android:name=".find" />
+        <activity android:name=".detail" />
+        <activity android:name=".division_list" />
+        <activity android:name=".show_theme" />
+        <activity android:name=".datasave" />
+        <activity android:name=".profile">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

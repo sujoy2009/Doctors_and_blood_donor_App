@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/smritychoice"
+    android:orientation="vertical"
+    tools:context=".find">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/finding"
+        android:inputType="number"
+
+        android:textColorHint="#0F0F0F"
+        android:background="@drawable/edit_background"
+        android:textStyle="bold|italic"
+        android:hint="  Enter your BMDC"
+        android:layout_marginBottom="20dp"
+       />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_raj"
+
+        android:text="Find and Update"
+        android:textStyle="italic"
+
+        android:id="@+id/fb"
+        />
+
+</LinearLayout>

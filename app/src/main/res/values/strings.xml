@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="helping"> 1.How to updte your doctor profile??\n\n
+        step 1:Click on the FIND AND UPDATE YOUR PROFILE button\n
+        step 2:Enter your BMDC number\n
+        step 3:Long press on your detail.Then put your new infornation\n\n
+        2.How to updte your blood donation profile??\n\n
+        step 1:Click on the  UPDATE YOUR DONATION INFO button\n
+        step 2:Enter your name\n
+        step 3:Long press on your detail.Then put your new infornation
+
+         </string>
+    <array name="catagory">
+        <item>neurologist</item>
+        <item>cardiologist</item>
+        <item>medicine</item>
+        <item>general_sergeon</item>
+        <item>psychiatrist</item>
+        <item>urologist</item>
+        <item>dentist</item>
+        <item>podiatrists</item>
+        <item>gynecologist</item>
+        <item>breast_surgeon</item>
+        <item>chest_specialist</item>
+        <item>child_specialist</item>
+        <item>eye_specialist</item>
+        <item>heart_specialist</item>
+    </array>
+    <array name="blood">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+
+    </array>
+    <array name="loc">
+        <item>Dhaka</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Satkhira</item>
+        <item>Jessore</item>
+        <item>Jhenaidah</item>
+        <item>Faridpur</item>
+        <item>Gopalgonj</item>
+        <item>Tangail</item>
+        <item>Narsingdi</item>
+        <item>Shariatpur</item>
+        <item>Narayanganj</item>
+        <item>Madaripur</item>
+        <item>Gazipur</item>
+        <item>Kishoreganj</item>
+        <item>Rajshahi</item>
+        <item>Bogura</item>
+        <item>Natore</item>
+        <item>Pabna</item>
+        <item>Chattogram</item>
+        <item>Bandorbon</item>
+        <item>Noakhali</item>
+        <item>Rangamati</item>
+        <item>Cox.s_Bazar</item>
+        <item>Rangpur</item>
+        <item>Sylhet</item>
+
+    </array>
+
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/medical"
+
+    tools:context=".show_theme">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/cid"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:layout_marginBottom="5dp"
+
+            android:background="@drawable/button_back"
+            android:text=" হৃদ রোগ বিশেষজ্ঞ " />
+
+
+        <Button
+            android:id="@+id/mid"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:layout_marginBottom="5dp"
+            android:textSize="25dp"
+            android:background="@drawable/button_back"
+            android:text="মেডিসিন" />
+
+
+        <Button
+            android:id="@+id/gid"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textStyle="italic"
+            android:background="@drawable/button_back"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:layout_marginBottom="5dp"
+            android:text="জেনারেল সারজন" />
+        <Button
+            android:id="@+id/nrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:background="@drawable/button_back"
+            android:text="নিউরোলজিস্ট" />
+
+        <Button
+            android:id="@+id/psychiatrisid"
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+
+            android:text="মানসিক রোগ বিশেষজ্ঞ " />
+        <Button
+            android:id="@+id/urologistid"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:textSize="23dp"
+            android:background="@drawable/button_back"
+            android:text="ইউরোলজিস্ট" />
+        <Button
+            android:id="@+id/dentistid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:background="@drawable/button_back"
+
+            android:text="ডেন্টিস্ট" />
+
+        <Button
+            android:id="@+id/gynecologistid"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:text="স্ত্রী রোগ বিশেষজ্ঞ " />
+
+
+
+        <Button
+            android:id="@+id/child_specialistid"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_marginBottom="5dp"
+            android:text="শিশু  বিশেষজ্ঞ" />
+        <Button
+            android:id="@+id/eye_specialistid"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:text=" চোখ বিশেষজ্ঞ" />
+        <Button
+            android:id="@+id/heart_specialistid"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:text="show heart specialist doctors list" />
+        <Button
+            android:id="@+id/breast_surgeonid"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:text="show breast surgeon doctors list" />
+        <Button
+            android:id="@+id/chest_specialistid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:text="show chest specialist doctors list" />
+        <Button
+            android:id="@+id/podiatristsid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_back"
+            android:textSize="23dp"
+            android:layout_weight="1"
+
+            android:text="show podiatrists doctors list" />
+        <Button
+            android:id="@+id/adid"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:background="@drawable/back2"
+            android:textSize="23dp"
+            android:text="সব ধরনের" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</ScrollView>
